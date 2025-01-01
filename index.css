@@ -1,5 +1,13 @@
-/* Styling for the body */
+* {
+    margin: 0;
+    padding: 0;
+    color: #f0efef;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+}
+
 body {
+    background-color: #9cc8f0;
     font-family: Helvetica;
     margin: 0;
     padding: 0;
@@ -10,74 +18,76 @@ body {
     background-image: linear-gradient(60deg, #0054b4, #40e0d0, white);
     background-size: 600% 600%;
     animation: bgAnimatedGradient 7s infinite linear;
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* Styling for the h1 tag */
 h1 {
     color: #ffffff;
     font-size: 36px;
     padding-top: 50px;
 }
 
-/* Card Styling */
-.card {
-    width: 300px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    padding: 0; 
-    position: relative;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
 }
 
-/* Card image styling */
-.card-image {
-    position: relative;
-    width: 100%;
-    height: 300px; 
+.task {
+    margin-right: 0;
 }
 
-.card-image img {
-    width: 100%;
-    height: 100%; 
-    object-fit: cover; 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    background-color: #9cc8f0;
     border-radius: 15px;
+    margin: 20px auto;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.card-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(50%);
     transition: transform 0.3s ease;
 }
 
-/* Hover effect on the image */
-.card-image img:hover {
-    transform: scale(1.1); 
+.card-container img:hover {
+    transform: scale(1.1);
 }
 
-.card-footer {
+.card-container p {
     position: absolute;
-    bottom: 10px; 
-    left: 50%; 
-    transform: translateX(-50%); 
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
-    width: fit-content; 
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-/* Background animation keyframes */
-@keyframes bgAnimatedGradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+.card-container:hover {
+    transform: scale(1); 
 }
+
+.task h2 {
+    margin-bottom: 1rem;
+}
+
+
