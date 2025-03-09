@@ -10,8 +10,8 @@ body {
     display: flex;
     height: 100vh;
     background-color: #eaeed3;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevents content from wrapping */
+    overflow-x: auto; 
+    white-space: nowrap; 
 }
 
 /* Container Layout */
@@ -84,8 +84,8 @@ body {
     padding: 30px;
     margin-left: 250px;
     width: calc(100% - 250px);
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping */
+    overflow-x: auto; 
+    white-space: nowrap; 
     color: #5b6d3d;
 }
 
@@ -127,8 +127,8 @@ body {
     align-items: flex-start;
     gap: 10px;
     margin-bottom: 15px;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping */
+    overflow-x: auto; 
+    white-space: nowrap; 
 }
 
 .order-section {
@@ -137,7 +137,7 @@ body {
     border-radius: 10px;
     color: white;
     width: 30%;
-    flex-shrink: 0; /* Prevents shrinking */
+    flex-shrink: 0; 
 }
 
 .order-section h3 {
@@ -171,12 +171,12 @@ body {
     padding: 10px;
     scroll-behavior: smooth;
     overflow-x: auto;
-    scrollbar-width: thin; /* Makes scrollbar thinner */
+    scrollbar-width: thin; 
     -ms-overflow-style: none;
 }
 
 .order-scroll::-webkit-scrollbar {
-    height: 10px; /* Adjusts scrollbar height */
+    height: 10px; 
 }
 
 .order-scroll::-webkit-scrollbar-thumb {
@@ -216,13 +216,13 @@ body {
 .payment-details label {
     display: block;
     font-weight: 600;
-    color: white; /* Ensures the text is visible */
+    color: white; 
 }
 
 /* Remove Button Outline */
 button, .btn {
-    border: none; /* Removes the black outline */
-    background-color: #a3b18a; /* Keeps buttons styled */
+    border: none; 
+    background-color: #a3b18a; 
     color: white;
     padding: 10px 15px;
     cursor: pointer;
