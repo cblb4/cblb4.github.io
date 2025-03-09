@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Staff Management - Dulcis Maison</title>
-    <link rel="stylesheet" href="staff.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Menu - Dulcis Maison</title>
+    <link rel="stylesheet" href="menu.css">
     <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
 </head>
@@ -19,8 +18,8 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html"><ion-icon name="home-outline"></ion-icon> Overview</a></li>
-                <li class="active"><a href="staff.html"><ion-icon name="people-outline"></ion-icon> Staff</a></li>
-                <li><a href="menu.html"><ion-icon name="restaurant-outline"></ion-icon> Menu</a></li>
+                <li><a href="staff.html"><ion-icon name="people-outline"></ion-icon> Staff</a></li>
+                <li class="active"><a href="menu.html"><ion-icon name="restaurant-outline"></ion-icon> Menu</a></li>
                 <li><a href="order.html"><ion-icon name="cart-outline"></ion-icon> Order</a></li>
                 <li><a href="inventory.html"><ion-icon name="cube-outline"></ion-icon> Inventory</a></li>
             </ul>
@@ -28,25 +27,27 @@
 
         <!-- Main Content -->
         <main class="content">
-            <h2>Staff</h2>
-            <p>Details of all staff</p>
+            <h2>Menu</h2>
+            <p>Details of all menu items</p>
 
-            <div class="staff-container">
-                <!-- Staff Form -->
-                <div class="staff-form">
-                    <label>Name:</label>
-                    <input type="text" placeholder="Enter Name">
+            <div class="menu-container">
+                <!-- Menu Form -->
+                <div class="menu-form">
+                    <label>Menu ID:</label>
+                    <input type="text" placeholder="Enter Menu ID">
                     
-                    <label>Age:</label>
-                    <input type="number" placeholder="Enter Age">
+                    <label>Menu Name:</label>
+                    <input type="text" placeholder="Enter Menu Name">
                     
-                    <label>Civil Status:</label>
-                    <input type="text" placeholder="Enter Civil Status">
+                    <label>Date:</label>
+                    <input type="date">
                     
-                    <label>Address ID:</label>
-                    <input type="text" placeholder="Enter Address ID">
+                    <label>Serving:</label>
+                    <input type="number" placeholder="Enter Serving Size">
                     
-                    <!-- Action Buttons -->
+                    <label>Price:</label>
+                    <input type="text" placeholder="Enter Price">
+                    
                     <div class="buttons">
                         <button class="btn">Add</button>
                         <button class="btn delete">Delete</button>
@@ -55,9 +56,9 @@
                     </div>
                 </div>
 
-                <!-- Staff Table / Placeholder -->
-                <div class="staff-table">
-                    <p>Staff Table Placeholder</p>
+                <!-- Menu Table / Placeholder -->
+                <div class="menu-table">
+                    <p>Menu Table Placeholder</p>
                 </div>
             </div>
         </main>

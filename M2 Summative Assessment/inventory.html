@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory - Dulcis Maison</title>
+    <link rel="stylesheet" href="inventory.css">
+    <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <img src="images/Logo.png" alt="Dulcis Maison Logo" class="logo-img">
+                <div class="logo-text">Dulcis Maison</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html"><ion-icon name="home-outline"></ion-icon> Overview</a></li>
+                <li><a href="staff.html"><ion-icon name="people-outline"></ion-icon> Staff</a></li>
+                <li><a href="menu.html"><ion-icon name="restaurant-outline"></ion-icon> Menu</a></li>
+                <li><a href="order.html"><ion-icon name="cart-outline"></ion-icon> Order</a></li>
+                <li class="active"><a href="inventory.html"><ion-icon name="cube-outline"></ion-icon> Inventory</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h2>Inventory</h2>
+            <p>Details of all the supply</p>
+
+            <div class="inventory-container">
+                <!-- Supplier Details -->
+                <div class="details-section">
+                    <h3>Supplier Details</h3>
+                    <label>Supplier ID:</label>
+                    <input type="text" placeholder="Enter Supplier ID">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter Supplier Name">
+                    <label>Contact:</label>
+                    <input type="text" placeholder="Enter Contact">
+                    <label>Address ID:</label>
+                    <input type="text" placeholder="Enter Address ID">
+                </div>
+
+                <!-- Supply Details -->
+                <div class="details-section">
+                    <h3>Supply Details</h3>
+                    <label>Supply ID:</label>
+                    <input type="text" placeholder="Enter Supply ID">
+                    <label>Date:</label>
+                    <input type="date">
+                    <label>Employee ID:</label>
+                    <input type="text" placeholder="Enter Employee ID">
+                    <label>Ingredients ID:</label>
+                    <input type="text" placeholder="Enter Ingredients ID">
+                    <label>Quantity:</label>
+                    <input type="number" placeholder="Enter Quantity">
+                    <label>Price:</label>
+                    <input type="text" placeholder="Enter Price">
+                    <label>Expiration Date:</label>
+                    <input type="date">
+                </div>
+
+                <!-- Ingredients Details -->
+                <div class="details-section">
+                    <h3>Ingredients Details</h3>
+                    <label>Ingredients ID:</label>
+                    <input type="text" placeholder="Enter Ingredients ID">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter Ingredient Name">
+                    <label>Unit:</label>
+                    <input type="text" placeholder="Enter Unit">
+                    <label>Current:</label>
+                    <input type="number" placeholder="Enter Current Quantity">
+                    <label>Critical Level:</label>
+                    <input type="number" placeholder="Enter Critical Level">
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="buttons">
+                <button class="btn">Add</button>
+                <button class="btn delete">Delete</button>
+                <button class="btn update">Update</button>
+                <button class="btn clear">Clear</button>
+            </div>
+
+            <!-- Search Section -->
+            <div class="search-section">
+                <input type="text" placeholder="Search...">
+                <button class="btn search-btn">Search</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
