@@ -1,3 +1,25 @@
+Project Details:
+
+🎯 Dulcis Maison Inventory Management System 📦💻
+
+Our web app is here to help you manage sales and inventory like a pro! 🙌 It automates the order-taking process, tracks your stock, and generates sales reports for smarter business decisions. 💡
+
+Key Features:
+
+📦 Inventory Management: Easily view & manage your products, update stock levels, and track item details.
+
+🛍️ Order Management: Process sales transactions, track orders, and keep everything up to date.
+
+📊 Sales Reporting: Get detailed reports to monitor performance and make data-driven decisions.
+
+🌐 User-friendly Interface: Super easy to use, whether you’re on desktop or mobile.
+
+🚪 No Login Required: Anyone involved in the business can access it—no hassle, no need for logins! 👌
+
+This system helps streamline your workflow, making sure your inventory and sales data are always accurate and up-to-date! 🔄📈
+
+
+
 🚀 Setup Guide for Dulcis Maison Project 🌐
 
 Step 1: Install XAMPP 💻
